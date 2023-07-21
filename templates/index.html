@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthConnect - Book Appointment</title>
+    <!-- Add CSS and JavaScript links here -->
+</head>
+<body>
+    <header>
+        <h1>HealthConnect - Book Appointment</h1>
+    </header>
+
+    <main>
+        <h2>Find a Doctor</h2>
+        <form id="appointmentForm">
+            <label for="doctor">Select Doctor:</label>
+            <select id="doctor" name="doctor">
+                <option value="1">Dr. John Doe</option>
+                <option value="2">Dr. Jane Smith</option>
+                <!-- Add more doctors here -->
+            </select>
+
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>HealthConnect &copy; 2023. All rights reserved.</p>
+    </footer>
+</body>
+</html>
