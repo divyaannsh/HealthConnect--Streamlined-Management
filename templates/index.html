@@ -3,36 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HealthConnect - Book Appointment</title>
-    <!-- Add CSS and JavaScript links here -->
+    <title>Medical Website</title>
+   
 </head>
 <body>
+    
     <header>
-        <h1>HealthConnect - Book Appointment</h1>
+        <h1>Medical Center</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <h2>Find a Doctor</h2>
-        <form id="appointmentForm">
-            <label for="doctor">Select Doctor:</label>
-            <select id="doctor" name="doctor">
-                <option value="1">Dr. John Doe</option>
-                <option value="2">Dr. Jane Smith</option>
-                <!-- Add more doctors here -->
-            </select>
+   
+    <section id="home">
+        <h2>Welcome to our Medical Center</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam purus in molestie tristique.</p>
+    </section>
 
-            <label for="date">Select Date:</label>
-            <input type="date" id="date" name="date" required>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>General Medicine</li>
+            <li>Pediatrics</li>
+            <li>Cardiology</li>
+            <li>Orthopedics</li>
+            
+        </ul>
+    </section>
 
-            <label for="time">Select Time:</label>
-            <input type="time" id="time" name="time" required>
+ 
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam purus in molestie tristique.</p>
+    </section>
 
-            <button type="submit">Book Appointment</button>
+  >
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
         </form>
-    </main>
+    </section>
 
     <footer>
-        <p>HealthConnect &copy; 2023. All rights reserved.</p>
+        <p>&copy; 2023 Medical Center. All rights reserved.</p>
     </footer>
+
+    
 </body>
 </html>
